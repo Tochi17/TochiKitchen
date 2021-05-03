@@ -1,0 +1,348 @@
+ @charset "UTF-8";
+body {
+	background-color: #B7DDE1;
+	color: #FFFFFF;
+	background-size: cover;
+	background-attachment: fixed;
+	font-family:Marvel;
+	font-style: normal;
+	font-weight: 400;
+}
+.navlist {
+	list-style-type: none;
+	background-color: #ffffff;
+	overflow-x: hidden;
+}
+header {
+	text-align: center;
+	margin-top: 25px;
+	margin-bottom: 41px;
+}
+body nav a {
+	color: #D960AB;
+	font-family: "VL Goku";
+	font-size: 22px;
+	font-style: normal;
+	font-weight: 400;
+	text-decoration: none;
+}
+h1 {
+	font-family:"VL Goku";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 3em;
+	text-align: center;
+}
+h3 {
+	font-family: "VL Goku";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 25px;
+	padding-right: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	color: #E492C5;
+}
+a {
+	color: #7F09BD;
+}
+.footer {
+	text-align: center;
+	left: 0;
+	font-family: "VL Goku";
+	bottom: 0;
+	color: white;
+	background-color: #FC8A99;
+	position: fixed;
+	width: 100%;
+}
+section {
+	background-color: #FFFFFF;
+	color: #000000;
+	width: 90%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	float: left;
+	margin-bottom: 80px;
+	border-radius: 20px;
+	margin-left: 20px;
+	padding-right: 32px;
+	padding-left: 40px;
+	margin-right: 20px;
+}
+aside  {
+	width: 50%;
+	float: left;
+}
+.navlistitem {
+	float: left;
+	padding-top: 8px;
+	padding-right: 8px;
+	padding-bottom: 8px;
+	padding-left: 8px;
+}
+.navbar.navbar-expand-lg.navbar-light.bg-light .navbar-brand {
+	color: #FC8A99;
+}
+.navbar.fixed-top.navbar-expand-lg.navbar-light.bg-light {
+	color: #FC8A99;
+}
+.navbar-nav.mr-auto .nav-item .nav-link:hover {
+	color: #FC8A99;
+}
+.contractextra.title {
+	font-size: 50px;
+}
+p1 {
+	padding-left: 0px;
+}
+
+iframe {
+	text-align: center;
+	width: 60%;
+	min-width: 60%;
+	max-width: 60%;
+}
+.button {
+	text-align: center;
+}
+h4 {
+	text-align: center;
+}
+p {
+	font-size: large;
+}
+li {
+	font-size: large;
+}
+.info {
+}
+.card {
+}
+.container {
+}
+
+@media (max-width: 600px){
+aside {
+	width: 95%;
+	float: none;
+}
+.cake {
+	float: left;
+	margin-left: 8px;
+	width: 70%;
+}
+.me {
+	float: left;
+	margin-left: 8px;
+	width: 26%;
+	padding-right: 20px;
+	border-radius: 42px;
+	padding-top: 0px;
+	margin-top: 6px;
+}
+iframe {
+	text-align: center;
+	width: 60%;
+	min-width: 70%;
+	max-width: 60%;
+}
+.info {
+}
+.card {
+}
+}
+section {
+	background-color: #FFFFFF;
+	color: #000000;
+	border-radius: 20px;
+	margin-left: 20px;
+	padding-right: 32px;
+	padding-left: 40px;
+	margin-right: 20px;
+}
+header {
+	text-align: center;
+	margin-top: 70px;
+	margin-bottom: 41px;
+}
+
+
+@media (max-height:600px){
+header {
+	text-align: center;
+	margin-top: 7px;
+	margin-bottom: 41px;
+}
+}
+
+*{box-sizing: border-box;}
+
+
+.column {
+	float: right;
+	width: 33.33%;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.contractextra {
+	background-color: #FC8A99;
+	border-width: thick;
+	padding-top: 9px;
+	margin-top: 2px;
+	margin-bottom: 30px;
+}
+
+.cake{
+	float: left;
+	margin-left: 8px;
+	width: 41%;
+	padding-right: 23px;
+	border-radius: 42px;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+@media (min-width: 601px){
+.cake {
+	float: left;
+	margin-left: 8px;
+	width: 41%;
+	padding-right: 23px;
+	border-radius: 42px;
+}
+iframe {
+	text-align: center;
+}
+.little {
+	min-width: 47%;
+	margin-left: 0px;
+	float: left;
+	padding-right: 17px;
+	border-radius: 38px;
+	width: 90px;
+}
+.column {
+	float: right;
+	width: 33.33%;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+.info {
+	width: 16%;
+}
+.card {
+}
+.container {
+}
+}
+.me {
+	float: left;
+	margin-left: 8px;
+	width: 35%;
+	padding-right: 20px;
+	border-radius: 42px;
+	padding-top: 0px;
+	margin-top: 6px;
+}
+.insta {
+	float: right;
+	padding-left: 0px;
+}
+
+ .stretch-insta>.insta {
+     width: 100%;
+     min-width: 100%
+ }
+
+ .flex {
+     -webkit-box-flex: 1;
+     -ms-flex: 1 1 auto;
+     flex: 1 1 auto
+ }
+
+.padding {
+     padding: 3rem
+ }
+
+ .insta {
+     box-shadow: none;
+     -webkit-box-shadow: none;
+     -moz-box-shadow: none;
+     -ms-box-shadow: none
+ }
+
+ .insta {
+     position: relative;
+     display: flex;
+     flex-direction: column;
+     min-width: 0;
+     word-wrap: break-word;
+     background-color: #fff;
+     background-clip: border-box;
+     border: 1px solid #3da5f;
+     border-radius: 0
+ }
+
+ .insta .insta-body {
+     padding: 1.25rem 1.75rem
+ }
+
+ .insta .insta-title {
+     color: #000000;
+     margin-bottom: 0.625rem;
+     text-transform: capitalize;
+     font-size: 0.875rem;
+     font-weight: 500
+ }
+
+ .insta .insta-description {
+     margin-bottom: .875rem;
+     font-weight: 400;
+     color: #76838f
+ }
+
+ .btn.btn-social-icon {
+     width: 50px;
+     height: 50px;
+     padding: 0
+ }
+
+ .template-demo>.btn {
+     margin-right: 0.5rem !important
+ }
+
+ .template-demo {
+     margin-top: 0.5rem !important
+ }
+
+ .btn.btn-rounded {
+     border-radius: 50px
+ }
+.btn-instagram {
+     background: #D960AB;
+     color: #ffffff
+ }
+.btn-tiktok {
+     background: #099CAC;
+     color: #ffffff
+ }
+.btn-instagram:hover,
+ .btn-instagram:focus {
+     background: #E681C0;
+     color: #ffffff
+ }
+.tiktokcake {
+	float: left;
+	padding-right: 15px;
+}
